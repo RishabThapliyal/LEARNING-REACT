@@ -38,5 +38,5 @@ export default function Card(props) {
             <span className="c5"></span>
         </div>
         </div>
-);
+    );
 }
