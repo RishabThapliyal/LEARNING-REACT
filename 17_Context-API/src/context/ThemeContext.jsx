@@ -15,5 +15,4 @@ const ThemeContext = (props) => {
         </div>
     )
 }
-
 export default ThemeContext

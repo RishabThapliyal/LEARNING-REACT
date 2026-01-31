@@ -18,7 +18,8 @@ const App = () => {
   }, [index])
 
 
-  let printUserData = <h3 className='text-gray-300 text-xs absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-semibold'>Loading...</h3>
+  let printUserData = <h3 className='text-gray-300 text-xs absolute top-1/2 left-1/2 
+  -translate-x-1/2 -translate-y-1/2 font-semibold'>Loading...</h3>
 
   if (userData.length > 0) {
     printUserData = userData.map(function (elem, idx) {
@@ -38,7 +39,8 @@ const App = () => {
       <div className='flex justify-center gap-6 items-center p-4'>
         <button
           style={{ opacity: index == 1 ? 0.6 : 1 }}
-          className='bg-amber-400 text-sm cursor-pointer active:scale-95 text-black rounded px-4 py-2 font-semibold'
+          className='bg-amber-400 text-sm cursor-pointer active:scale-95
+              text-black rounded px-4 py-2 font-semibold'
           onClick={() => {
             if (index > 1) {
               setIndex(index - 1)
